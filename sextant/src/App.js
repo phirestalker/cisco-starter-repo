@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+
+function Heading() {
+  return <div class="App-header"><h1>Sextant Network Information App</h1></div>
+}
+
+function Panel() {
+  return (
+    <div class="App-exhibit">
+      <div class="App-exhibit-header"><h2>Components</h2></div>
+      <div class="App-exhibit-components"></div>
+    </div>
+  )
+}
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Heading />
+      <Panel />
     </div>
   );
 }
