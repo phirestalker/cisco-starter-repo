@@ -1,0 +1,22 @@
+.Exhibit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    background-color: #414e69;
+    margin: 10px;
+    box-shadow: 2px 2px 2px black;
+  }
+  
+  .Exhibit-header {
+    background-color: #060e1c;
+    padding: 5px;
+  }
+  
+  .Exhibit-children {
+    background-color: #414e69;
+    color: white;
+    padding: 5px;
+  }
